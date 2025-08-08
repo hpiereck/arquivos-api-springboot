@@ -43,5 +43,5 @@ Este projeto utiliza o **PostgreSQL** rodando em um container Docker.
 
 Antes de iniciar a aplicação Spring Boot, é necessário subir o banco de dados:
 
-bash
+```bash
 docker-compose up -d
