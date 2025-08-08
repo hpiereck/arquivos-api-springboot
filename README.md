@@ -1,6 +1,8 @@
 # 📁 API de Manipulação de Arquivos (Spring Boot + Docker)
 
-API para manipulação de arquivos (CRUD), desenvolvida com **Spring Boot** e **containerizada com Docker**. O projeto também utiliza o **Flyway** para versionamento do banco de dados.
+API REST para manipulação de arquivos (CRUD), desenvolvida com **Spring Boot** e **containerizada com Docker**.  
+O projeto utiliza **Flyway** para versionamento do banco de dados e foi desenvolvido no **IntelliJ IDEA**.  
+Os testes da API foram realizados com o **Postman**.
 
 ---
 
@@ -8,8 +10,10 @@ API para manipulação de arquivos (CRUD), desenvolvida com **Spring Boot** e **
 
 - Java 21
 - Spring Boot
-- Flyway
+- Flyway (controle de versão do banco de dados)
 - PostgreSQL / Docker
+- IntelliJ IDEA (ambiente de desenvolvimento)
+- Postman (testes de API)
 
 ---
 
@@ -22,11 +26,11 @@ API para manipulação de arquivos (CRUD), desenvolvida com **Spring Boot** e **
 
 ---
 
-## 🐳 Banco de Dados (Docker)
+## 📌 Endpoints da API
 
-Este projeto utiliza o **PostgreSQL** rodando em um container Docker.
-
-Antes de iniciar a aplicação Spring Boot, é necessário subir o banco de dados:
-
-```bash
-docker-compose up -d
+| Método   |        Endpoint             |        Descrição         |
+|----------|-----------------------------|--------------------------|
+| **POST**   | `/api/arquivos`           | Upload de um arquivo     |
+| **GET**    | `/api/arquivos`           | Lista todos os arquivos  |
+| **GET**    | `/api/arquivos/{id}`      | Download de um arquivo   |
+| **DELETE** | `/api/arquivos/{id}`      | Remove um arquivo        |
