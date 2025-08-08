@@ -1,0 +1,49 @@
+server:
+  port: 8001
+  servlet:
+    context-path: /api/arquivos
+  error:
+    include-stacktrace: never
+
+
+spring:
+  application:
+    name: arquivosapi
+  main:
+    banner-mode: 'off'
+  output:
+    ansi:
+      enabled: ALWAYS
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 52MB
+  jackson:
+    default-property-inclusion: NON_NULL
+    date-format: dd/MM/yyyy
+    serialization:
+      write-dates-as-timestamps: false
+  mvc:
+    log-request-details: true
+  flyway:
+    enabled: true
+  # DB
+  datasource:
+    url: jdbc:postgresql://localhost:5432/test_db
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      connection-timeout: 60000
+      maximum-pool-size: 10
+      minimum-idle: 2
+      connection-test-query: SELECT 1 + 1
+      data-source-properties:
+        applicationName: arquivosapi
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+  file:
+    upload-dir: uploads

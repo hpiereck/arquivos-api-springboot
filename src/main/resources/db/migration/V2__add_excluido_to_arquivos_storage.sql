@@ -1,0 +1,2 @@
+ALTER TABLE arquivos_storage
+ADD COLUMN excluido BOOLEAN NOT NULL DEFAULT FALSE;

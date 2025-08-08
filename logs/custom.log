@@ -1,0 +1,186 @@
+LOG - e9494b6f-9732-4213-91f3-f2ece58afafc
+DATA: 17/07/2025 13:04
+MÉTODO: ArquivoController.salvar
+STACK:
+O arquivo não pode exceder 5MB.PARÂMETRO:
+"{ \"nome\": \"upd-ps-x64-7.7.0.26201.zip\", \"tamanho\": 23423595 }"
+
+LOG - 723c1a65-085b-4911-b2c5-d3ff7530c88c
+DATA: 17/07/2025 13:05
+MÉTODO: ArquivoController.salvar
+STACK:
+O arquivo não pode exceder 5MB.
+PARÂMETRO:
+"{ \"nome\": \"upd-ps-x64-7.7.0.26201.zip\", \"tamanho\": 23423595 }"
+
+LOG - 61f22375-092f-4ce5-8f85-f78be9986b36
+DATA: 17/07/2025 14:41
+MÉTODO: ArquivoController.salvar
+STACK:
+File   >> ArquivoController.java
+Método >> salvar
+Classe >> br.org.crea.springboot_ouvidoria_arquivo.controller.ArquivoControllerFile   >> DirectMethodHandleAccessor.java
+Método >> invoke
+Classe >> jdk.internal.reflect.DirectMethodHandleAccessorFile   >> Method.java
+Método >> invoke
+Classe >> java.lang.reflect.MethodFile   >> InvocableHandlerMethod.java
+Método >> doInvoke
+Classe >> org.springframework.web.method.support.InvocableHandlerMethodFile   >> InvocableHandlerMethod.java
+Método >> invokeForRequest
+Classe >> org.springframework.web.method.support.InvocableHandlerMethodFile   >> ServletInvocableHandlerMethod.java
+Método >> invokeAndHandle
+Classe >> org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethodFile   >> RequestMappingHandlerAdapter.java
+Método >> invokeHandlerMethod
+Classe >> org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterFile   >> RequestMappingHandlerAdapter.java
+Método >> handleInternal
+Classe >> org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapterFile   >> AbstractHandlerMethodAdapter.java
+Método >> handle
+Classe >> org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapterFile   >> DispatcherServlet.java
+Método >> doDispatch
+Classe >> org.springframework.web.servlet.DispatcherServletFile   >> DispatcherServlet.java
+Método >> doService
+Classe >> org.springframework.web.servlet.DispatcherServletFile   >> FrameworkServlet.java
+Método >> processRequest
+Classe >> org.springframework.web.servlet.FrameworkServletFile   >> FrameworkServlet.java
+Método >> doPost
+Classe >> org.springframework.web.servlet.FrameworkServletFile   >> HttpServlet.java
+Método >> service
+Classe >> jakarta.servlet.http.HttpServletFile   >> FrameworkServlet.java
+Método >> service
+Classe >> org.springframework.web.servlet.FrameworkServletFile   >> HttpServlet.java
+Método >> service
+Classe >> jakarta.servlet.http.HttpServletFile   >> ApplicationFilterChain.java
+Método >> internalDoFilter
+Classe >> org.apache.catalina.core.ApplicationFilterChainFile   >> ApplicationFilterChain.java
+Método >> doFilter
+Classe >> org.apache.catalina.core.ApplicationFilterChainFile   >> WsFilter.java
+Método >> doFilter
+Classe >> org.apache.tomcat.websocket.server.WsFilterFile   >> ApplicationFilterChain.java
+Método >> internalDoFilter
+Classe >> org.apache.catalina.core.ApplicationFilterChainFile   >> ApplicationFilterChain.java
+Método >> doFilter
+Classe >> org.apache.catalina.core.ApplicationFilterChainFile   >> RequestContextFilter.java
+Método >> doFilterInternal
+Classe >> org.springframework.web.filter.RequestContextFilterFile   >> OncePerRequestFilter.java
+Método >> doFilter
+Classe >> org.springframework.web.filter.OncePerRequestFilterFile   >> ApplicationFilterChain.java
+Método >> internalDoFilter
+Classe >> org.apache.catalina.core.ApplicationFilterChainFile   >> ApplicationFilterChain.java
+Método >> doFilter
+Classe >> org.apache.catalina.core.ApplicationFilterChainFile   >> FormContentFilter.java
+Método >> doFilterInternal
+Classe >> org.springframework.web.filter.FormContentFilterFile   >> OncePerRequestFilter.java
+Método >> doFilter
+Classe >> org.springframework.web.filter.OncePerRequestFilterFile   >> ApplicationFilterChain.java
+Método >> internalDoFilter
+Classe >> org.apache.catalina.core.ApplicationFilterChainFile   >> ApplicationFilterChain.java
+Método >> doFilter
+Classe >> org.apache.catalina.core.ApplicationFilterChainFile   >> CharacterEncodingFilter.java
+Método >> doFilterInternal
+Classe >> org.springframework.web.filter.CharacterEncodingFilterFile   >> OncePerRequestFilter.java
+Método >> doFilter
+Classe >> org.springframework.web.filter.OncePerRequestFilterFile   >> ApplicationFilterChain.java
+Método >> internalDoFilter
+Classe >> org.apache.catalina.core.ApplicationFilterChainFile   >> ApplicationFilterChain.java
+Método >> doFilter
+Classe >> org.apache.catalina.core.ApplicationFilterChainFile   >> StandardWrapperValve.java
+Método >> invoke
+Classe >> org.apache.catalina.core.StandardWrapperValveFile   >> StandardContextValve.java
+Método >> invoke
+Classe >> org.apache.catalina.core.StandardContextValveFile   >> AuthenticatorBase.java
+Método >> invoke
+Classe >> org.apache.catalina.authenticator.AuthenticatorBaseFile   >> StandardHostValve.java
+Método >> invoke
+Classe >> org.apache.catalina.core.StandardHostValveFile   >> ErrorReportValve.java
+Método >> invoke
+Classe >> org.apache.catalina.valves.ErrorReportValveFile   >> StandardEngineValve.java
+Método >> invoke
+Classe >> org.apache.catalina.core.StandardEngineValveFile   >> CoyoteAdapter.java
+Método >> service
+Classe >> org.apache.catalina.connector.CoyoteAdapterFile   >> Http11Processor.java
+Método >> service
+Classe >> org.apache.coyote.http11.Http11ProcessorFile   >> AbstractProcessorLight.java
+Método >> process
+Classe >> org.apache.coyote.AbstractProcessorLightFile   >> AbstractProtocol.java
+Método >> process
+Classe >> org.apache.coyote.AbstractProtocol$ConnectionHandlerFile   >> NioEndpoint.java
+Método >> doRun
+Classe >> org.apache.tomcat.util.net.NioEndpoint$SocketProcessorFile   >> SocketProcessorBase.java
+Método >> run
+Classe >> org.apache.tomcat.util.net.SocketProcessorBaseFile   >> ThreadPoolExecutor.java
+Método >> runWorker
+Classe >> org.apache.tomcat.util.threads.ThreadPoolExecutorFile   >> ThreadPoolExecutor.java
+Método >> run
+Classe >> org.apache.tomcat.util.threads.ThreadPoolExecutor$WorkerFile   >> TaskThread.java
+Método >> run
+Classe >> org.apache.tomcat.util.threads.TaskThread$WrappingRunnableFile   >> Thread.java
+Método >> run
+Classe >> java.lang.Thread
+PARÂMETRO:
+"{ \"nome\": \"upd-ps-x64-7.7.0.26201.zip\", \"tamanho\": 23423595 }"
+
+LOG - 3c6977f1-b880-493f-a478-c97afc851398
+DATA: 17/07/2025 14:43
+MÉTODO: ArquivoController.salvar
+STACK:
+br.org.crea.springboot_ouvidoria_arquivo.infrastructure.exception.RegraDeNegocioException: O arquivo não pode exceder 5MB.
+	at controller.arquivosapi.ArquivoController.salvar(ArquivoController.java:43)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+PARÂMETRO:
+"{ \"nome\": \"upd-ps-x64-7.7.0.26201.zip\", \"tamanho\": 23423595 }"
+
+LOG - d2f9a772-19ad-4236-b8b5-ea9587be1b00
+DATA: 17/07/2025 14:49
+MÉTODO: ArquivoController.salvar
+STACK: RegraDeNegocioException: O arquivo não pode exceder 5MB.
+PARÂMETRO:
+"{ \"nome\": \"upd-ps-x64-7.7.0.26201.zip\", \"tamanho\": 23423595 }"
+
