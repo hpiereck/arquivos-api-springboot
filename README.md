@@ -34,3 +34,14 @@ Os testes da API foram realizados com o **Postman**.
 | **GET**    | `/api/arquivos`           | Lista todos os arquivos  |
 | **GET**    | `/api/arquivos/{id}`      | Download de um arquivo   |
 | **DELETE** | `/api/arquivos/{id}`      | Remove um arquivo        |
+
+---
+
+## 🐳 Banco de Dados (Docker)
+
+Este projeto utiliza o **PostgreSQL** rodando em um container Docker.
+
+Antes de iniciar a aplicação Spring Boot, é necessário subir o banco de dados:
+
+bash
+docker-compose up -d
