@@ -3,6 +3,7 @@
 API para manipulação de arquivos (CRUD), desenvolvida com **Spring Boot** e **containerizada com Docker**.  
 O projeto utiliza **Flyway** para versionamento do banco de dados e foi desenvolvido no **IntelliJ IDEA**.  
 Os testes da API foram realizados com o **Postman**.
+Os arquivos enviados à API são **criptografados no momento do upload** e **descriptografados no momento do download**, garantindo segurança no armazenamento e na transmissão dos dados.
 
 ---
 
